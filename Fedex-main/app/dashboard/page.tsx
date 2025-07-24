@@ -55,31 +55,31 @@ export default function DashboardPage() {
     dimensions: "30x20x15 cm",
     timeline: [
       {
-        date: "22 July 2024",
+        date: "22 July 2025",
         status: "Package Left Origin",
         location: "Westchester, NY",
         completed: true,
       },
       {
-        date: "23 July 2024",
+        date: "23 July 2025",
         status: "Shipped",
         location: "JFK International Airport, NY",
         completed: true,
       },
       {
-        date: "25 July 2024",
+        date: "25 July 2025",
         status: "In Transit",
         location: "Lima, Peru Distribution Center",
         completed: true,
       },
       {
-        date: "26 July 2024",
+        date: "26 July 2025",
         status: "Out for Delivery",
         location: "Trujillo Distribution Center",
         completed: false,
       },
       {
-        date: "2-5 August 2024",
+        date: "2-5 August 2025",
         status: "Delivered",
         location: "Av larco 740 vista alegre",
         completed: false,
