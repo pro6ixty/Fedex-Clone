@@ -10,51 +10,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const footerSections = [
-     {
-      title: "Services",
-      links: [
-        { name: "Express Shipping", href: "/services/express" },
-        { name: "Ground Shipping", href: "/services/ground" },
-        { name: "International", href: "/services/international" },
-        { name: "Same Day Delivery", href: "/services/same-day" },
-        { name: "Freight Services", href: "/services/freight" },
-        { name: "Supply Chain", href: "/services/supply-chain" },
-      ],
-    },
-    {
-      title: "Support",
-      links: [
-        { name: "Track Package", href: "/tracking" },
-        { name: "Customer Service", href: "/support" },
-        { name: "Shipping Guide", href: "/support/shipping-guide" },
-        { name: "Returns", href: "/support/returns" },
-        { name: "Claims", href: "/support/claims" },
-        { name: "FAQ", href: "/support/faq" },
-      ],
-    },
-    {
-      title: "Company",
-      links: [
-        { name: "About FedEx", href: "/about" },
-        { name: "Careers", href: "/careers" },
-        { name: "Investor Relations", href: "/investors" },
-        { name: "Newsroom", href: "/newsroom" },
-        { name: "Sustainability", href: "/sustainability" },
-        { name: "FedEx Locations", href: "/locations" },
-      ],
-    },
-    {
-      title: "Resources",
-      links: [
-        { name: "Developer APIs", href: "/developers" },
-        { name: "Mobile Apps", href: "/mobile" },
-        { name: "Business Solutions", href: "/business" },
-        { name: "Small Business", href: "/small-business" },
-        { name: "Industry Solutions", href: "/industries" },
-        { name: "Partner Program", href: "/partners" },
-      ],
-    },
-  ]
+      ]
 
   const socialLinks = [
     { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/FedEx" },
