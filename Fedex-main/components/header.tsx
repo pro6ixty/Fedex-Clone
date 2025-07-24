@@ -34,6 +34,7 @@ export function Header() {
     { name: t("tracking"), href: "/tracking" },
     { name: t("services"), href: "/services" },
     { name: t("support"), href: "/support" },
+    { name: t("support"), href: "/about" },/support" },
   ]
 
   return (
@@ -75,7 +76,7 @@ export function Header() {
               <div className="flex items-center space-x-2">
                 <Link href="/dashboard">
                   <Button variant="ghost" size="sm" className="text-white hover:bg-white/10 hover:text-white">
-                    {t("dashboard")}
+                    {t("")}
                   </Button>
                 </Link>
                 <DropdownMenu>
