@@ -149,15 +149,7 @@ export function NotificationManager() {
           </Card>
         </div>
       )}
-
-      {/* Test Delivery Button (for demo purposes) */}
-      {!isDelivered && (
-        <div className="fixed bottom-4 right-4 z-50">
-          <Button onClick={markAsDelivered} className="bg-green-600 hover:bg-green-700 text-white" size="sm">
-            Mark as Delivered (Demo)
-          </Button>
-        </div>
-      )}
+      
 
       {/* Notifications List */}
       <div className="fixed top-4 right-4 z-40 space-y-2 max-w-sm">
