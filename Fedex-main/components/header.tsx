@@ -34,7 +34,7 @@ export function Header() {
     { name: t("tracking"), href: "/tracking" },
     { name: t("services"), href: "/services" },
     { name: t("support"), href: "/support" },
-    { name: t("support"), href: "/about" },/support" },
+    { name: t("About us"), href: "/about" },
   ]
 
   return (
