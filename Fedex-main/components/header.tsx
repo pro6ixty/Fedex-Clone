@@ -18,6 +18,8 @@ import { useAuth } from "@/contexts/auth-context"
 import { useLanguage } from "@/contexts/language-context"
 import Image from "next/image"
 
+import { Analytics } from "@vercel/analytics/next"
+
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const { user, logout, isAuthenticated } = useAuth()
@@ -38,6 +40,8 @@ export function Header() {
   ]
 
   return (
+
+    <Analytics/>
     <header className="bg-gradient-to-r from-purple-900 via-purple-800 to-purple-900 shadow-lg border-b border-purple-700/50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
