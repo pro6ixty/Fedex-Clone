@@ -7,6 +7,7 @@ import { LanguageProvider } from "@/contexts/language-context"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { NotificationManager } from "@/components/notification-manager"
+import { Analytics } from "@vercel/analytics/next"
 import Script from "next/script"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -94,6 +95,7 @@ export default function RootLayout({
             })(document);
           `}
         </Script>
+        <Analytics/>
       </head>
       <body className={inter.className}>
         <LanguageProvider>
