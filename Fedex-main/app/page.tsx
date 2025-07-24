@@ -381,24 +381,20 @@ export default function HomePage() {
               Create an account and start shipping with confidence today
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-             <Link href="/signup">
-              <Button
+              <Button href="/signup"
                 size="lg"
                 className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-lg px-8 py-4 animate-pulse-glow"
               >
                 Get Started
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              </link>
-              <Link href="/about">
-              <Button
+              <Button href="/about"
                 variant="outline"
                 size="lg"
                 className="border-white/30 text-white hover:bg-white/10 text-lg px-8 py-4 bg-transparent"
               >
                 Learn More
               </Button>
-              </Link>
             </div>
           </div>
         </div>
