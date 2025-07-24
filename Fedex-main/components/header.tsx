@@ -76,7 +76,7 @@ export function Header() {
               <div className="flex items-center space-x-2">
                 <Link href="/dashboard">
                   <Button variant="ghost" size="sm" className="text-white hover:bg-white/10 hover:text-white">
-                    {t("")}
+                    {t("Dashboard")}
                   </Button>
                 </Link>
                 <DropdownMenu>
