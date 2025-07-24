@@ -10,7 +10,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const footerSections = [
-    {
+   /* {
       title: "Services",
       links: [
         { name: "Express Shipping", href: "/services/express" },
@@ -20,7 +20,7 @@ export function Footer() {
         { name: "Freight Services", href: "/services/freight" },
         { name: "Supply Chain", href: "/services/supply-chain" },
       ],
-    },
+    },*/
     {
       title: "Support",
       links: [
@@ -43,7 +43,7 @@ export function Footer() {
         { name: "FedEx Locations", href: "/locations" },
       ],
     },
-    {
+  /*  {
       title: "Resources",
       links: [
         { name: "Developer APIs", href: "/developers" },
@@ -53,11 +53,11 @@ export function Footer() {
         { name: "Industry Solutions", href: "/industries" },
         { name: "Partner Program", href: "/partners" },
       ],
-    },
+    },*/
   ]
 
   const socialLinks = [
-    { name: "Facebook", icon: Facebook, href: "https://facebook.com/fedex" },
+    { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/FedEx" },
     { name: "Twitter", icon: Twitter, href: "https://twitter.com/fedex" },
     { name: "Instagram", icon: Instagram, href: "https://instagram.com/fedex" },
     { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/company/fedex" },
@@ -161,13 +161,10 @@ export function Footer() {
                   Cookie Policy
                 </Link>
                 <span>•</span>
-                <Link href="/accessibility" className="hover:text-white transition-colors">
-                  Accessibility
-                </Link>
               </div>
             </div>
             <div className="text-xs text-purple-300">
-              <p>FedEx® and the FedEx logo are trademarks of FedEx Corporation.</p>
+              <p>FedEx® 2024</p>
             </div>
           </div>
         </div>
