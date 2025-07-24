@@ -40,8 +40,6 @@ export function Header() {
   ]
 
   return (
-
-    <Analytics/>
     <header className="bg-gradient-to-r from-purple-900 via-purple-800 to-purple-900 shadow-lg border-b border-purple-700/50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
