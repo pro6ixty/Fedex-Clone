@@ -49,14 +49,6 @@ export default function LoginPage() {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center space-y-2">
           <div className="mx-auto h-12 w-12 rounded-full bg-purple-100 flex items-center justify-center">
-              <Image
-                src="/images/fedex-logo.png"
-                alt="FedEx Logo"
-                width={120}
-                height={40}
-                className="h-8 w-auto"
-                priority
-              />
             </div>
           <CardTitle className="text-2xl font-bold">{t("loginTitle")}</CardTitle>
           <CardDescription>Enter your credentials to access your account</CardDescription>
