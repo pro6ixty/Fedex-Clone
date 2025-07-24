@@ -7,7 +7,6 @@ import { LanguageProvider } from "@/contexts/language-context"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { NotificationManager } from "@/components/notification-manager"
-import { Analytics } from "@vercel/analytics/next"
 import Script from "next/script"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -29,7 +28,7 @@ export const metadata: Metadata = {
     title: "FedEx - Fast and Reliable Delivery Worldwide",
     description:
       "Ship your packages safely and on time with FedEx. Track packages, schedule pickups, and manage your deliveries online.",
-    url: "https://fedex.com",
+    url: "/",
     siteName: "FedEx",
     images: [
       {
@@ -95,7 +94,6 @@ export default function RootLayout({
             })(document);
           `}
         </Script>
-        <Analytics/>
       </head>
       <body className={inter.className}>
         <LanguageProvider>
