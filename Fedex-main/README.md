@@ -1,30 +1,45 @@
-# Fedex delivery website
+# FedEx Clone Project
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+This is a FedEx-like project built with Next.js, React, and Tailwind CSS.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/soniabs-projects/v0-fedex-delivery-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/LSfynhSsF7A)
+## 📦 Features
+- Multiple footer pages (about, privacy, terms, support, investors, newsroom, etc.)
+- SEO meta tags and dynamic titles for each page
+- Responsive design using Tailwind CSS
+- Modular components (header, footer, UI library)
+- Context providers for language and authentication
 
-## Overview
+## 🚀 Deployment guide
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+1. Clone the repository:
+```bash
+git clone https://github.com/USERNAME/fedex-clone.git
+cd fedex-clone
+```
 
-## Deployment
+2. Install dependencies:
+```bash
+pnpm install # or npm install / yarn install
+```
 
-Your project is live at:
+3. Run locally:
+```bash
+pnpm dev # or npm run dev / yarn dev
+```
 
-**[https://vercel.com/soniabs-projects/v0-fedex-delivery-website](https://vercel.com/soniabs-projects/v0-fedex-delivery-website)**
+4. Build for production:
+```bash
+pnpm build && pnpm start
+```
 
-## Build your app
+## 📁 Folder structure
+- `app/` - Pages and routes
+- `components/` - Reusable components
+- `contexts/` - Context providers
+- `hooks/` - Custom hooks
+- `lib/` - Helper functions
+- `public/` - Images and assets
+- `styles/` - Global styles
 
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/LSfynhSsF7A](https://v0.dev/chat/projects/LSfynhSsF7A)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 📝 License
+This project is for educational and demonstration purposes only. Not affiliated with FedEx.
