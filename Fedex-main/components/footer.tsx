@@ -10,7 +10,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const footerSections = [
-   /* {
+     {
       title: "Services",
       links: [
         { name: "Express Shipping", href: "/services/express" },
@@ -20,7 +20,7 @@ export function Footer() {
         { name: "Freight Services", href: "/services/freight" },
         { name: "Supply Chain", href: "/services/supply-chain" },
       ],
-    },*/
+    },
     {
       title: "Support",
       links: [
@@ -43,7 +43,7 @@ export function Footer() {
         { name: "FedEx Locations", href: "/locations" },
       ],
     },
-  /*  {
+    {
       title: "Resources",
       links: [
         { name: "Developer APIs", href: "/developers" },
@@ -53,7 +53,7 @@ export function Footer() {
         { name: "Industry Solutions", href: "/industries" },
         { name: "Partner Program", href: "/partners" },
       ],
-    },*/
+    },
   ]
 
   const socialLinks = [
