@@ -41,8 +41,8 @@ export default function TrackingPage() {
           trackingNumber: number,
           status: "inTransit",
           from: "Kaboul - 587, Karte Se Kabul, 1001, Afghanistan",
-          to: "19a Naguru E Rd, Kampala, Uganda"
-          receiver:"PEDRO MIGUEL",
+          to: "19a Naguru E Rd, Kampala, Uganda",
+          receiver: "PEDRO MIGUEL",
           estimatedDelivery: "25 Augustst to 5 September 2025",
           timeline: [
             {
@@ -57,7 +57,7 @@ export default function TrackingPage() {
               time: "2:15 PM",
               status: "Shipped",
               location: " CF2M+284, Khaki Jabbar District 1003, Afghanistan",
-              completed true,
+              completed: true,
             },
             {
               date: "2 September 2025",
