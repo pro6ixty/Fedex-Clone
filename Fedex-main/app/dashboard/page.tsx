@@ -98,11 +98,12 @@ export default function DashboardPage() {
       lng: -79.029,
       name:"Kampala, Uganda",
     },   
-    Location: {
+    currentLocation: {
       lat: -12.0464,
       lng: -77.0428,
       name:"Trujillo Distribution Center",
-    }
+    },
+  }
 
   const handlePrintLabel = () => {
     PrintService.printShippingLabel(packageData)
