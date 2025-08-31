@@ -42,46 +42,46 @@ export default function DashboardPage() {
   const packageData = {
     trackingNumber: "FX123456789PE",
     status: "inTransit",
-    from: "Westchester, New York City, USA",
-    to: "Av larco 740 vista alegre - victor larco, Trujillo Peru",
-    receiver: "Ivan Humberto",
-    senderName: user?.fullName || "Sonia Ben Martinez",
-    senderAddress: user?.address || "123 Westchester Ave, White Plains, NY 10601, USA",
+    from: "Kaboul - 587, Karte Se Kabul, 1001, Afghanistan",
+    to: "19a Naguru E Rd, Kampala, Uganda",
+    receiver: "PEDRO MIGUEL",
+    senderName: user?.fullName || "Jenifer Albert",
+    senderAddress: user?.address || " CF2M+284, Khaki Jabbar District 1003, Afghanistan",
     senderPhone: user?.phoneNumber || "+1 (555) 123-4567",
-    receiverAddress: "Av larco 740 vista alegre - victor larco, Trujillo Peru",
-    estimatedDelivery: "2-5 August 2024",
+    receiverAddress: "19a Naguru E Rd, Kampala, Uganda",
+    estimatedDelivery: "31 August - 10 September 2025",
     service: "Express International",
     weight: "2.5 kg",
     dimensions: "30x20x15 cm",
     timeline: [
       {
-        date: "22 July 2025",
+        date: "31 August 2025",
         status: "Package Left Origin",
-        location: "Westchester, NY",
+        location: "Karte Se Kabul, 1001, Afghanistan",
         completed: true,
       },
       {
-        date: "23 July 2025",
+        date: "31 August 2025",
         status: "Shipped",
-        location: "JFK International Airport, NY",
+        location: "Trujillo Distribution Center",
         completed: true,
       },
       {
-        date: "25 July 2025",
+        date: "4 Sept 2025",
         status: "In Transit",
-        location: "Lima, Peru Distribution Center",
-        completed: true,
+        location: "19a Naguru E Rd, Kampala, Uganda",
+        completed: false,
       },
       {
         date: "26 July 2025",
         status: "Out for Delivery",
-        location: "Trujillo Distribution Center",
+        location: "Trujillo Distribution Trujillolo",
         completed: false,
       },
       {
         date: "2-5 August 2025",
         status: "Delivered",
-        location: "Av larco 740 vista alegre",
+        location: "Kaboul - 587, Karte Se Kabul, 1001, Afghanistan",
         completed: false,
       },
     ],
@@ -91,19 +91,18 @@ export default function DashboardPage() {
     origin: {
       lat: 40.9584,
       lng: -73.7781,
-      name: "Westchester, NY",
+      name: "Kaboul, Afghanistan",
     },
     destination: {
       lat: -8.1116,
       lng: -79.029,
-      name: "Trujillo, Peru",
-    },
-    currentLocation: {
+      name:"Kampala, Uganda",
+    },   
+    Location: {
       lat: -12.0464,
       lng: -77.0428,
-      name: "Lima Distribution Center",
-    },
-  }
+      name:"Trujillo Distribution Center",
+    }
 
   const handlePrintLabel = () => {
     PrintService.printShippingLabel(packageData)
