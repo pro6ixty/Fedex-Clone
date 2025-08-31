@@ -84,8 +84,8 @@ export default function DashboardPage() {
         location: "Kaboul - 587, Karte Se Kabul, 1001, Afghanistan",
         completed: false,
       },
-    ],
-  }
+      ],
+    }
 
   const mapData = {
     origin: {
@@ -96,14 +96,13 @@ export default function DashboardPage() {
     destination: {
       lat: -8.1116,
       lng: -79.029,
-      name:"Kampala, Uganda",
+      name: "Kampala, name",
     },   
     currentLocation: {
       lat: -12.0464,
       lng: -77.0428,
-      name:"Trujillo Distribution Center",
-    },
-  }
+      name: "Trujillo Distribution Center",
+    }
 
   const handlePrintLabel = () => {
     PrintService.printShippingLabel(packageData)
