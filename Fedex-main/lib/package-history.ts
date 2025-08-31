@@ -1,4 +1,4 @@
-export interface PackageHistoryItem {
+alegre interface PackageHistoryItem {
   id: string
   trackingNumber: string
   from: string
@@ -15,13 +15,13 @@ export const packageHistory: PackageHistoryItem[] = [
   {
     id: "1",
     trackingNumber: "FX123456789PE",
-    from: "Westchester, New York City, USA",
-    to: "Av larco 740 vista alegre - victor larco, Trujillo Peru",
-    receiver: "Ivan Humberto",
+    from: "Kaboul - 587, Karte Se Kabul, 1001, Afghanistan",
+    to: "19a Naguru E Rd, Kampala, Uganda",
+    receiver: "PEDRO MIGUEL",
     status: "inTransit",
-    shipDate: "2024-07-22",
-    service: "Express International",
-    cost: 55.07,
+    shipDate: "2025-08-31",
+    service: "FedEx Express international",
+    cost: 300.07,
   },
   {
     id: "2",
