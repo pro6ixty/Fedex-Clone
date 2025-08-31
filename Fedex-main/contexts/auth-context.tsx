@@ -23,7 +23,7 @@ const DEMO_USER: User = {
   email: "soniaben445@gmail.com",
   fullName: "Sonia Ben Martinez",
   phoneNumber: "+1 (555) 123-4567",
-  address: "123 Westchester Ave, White Plains, NY 10601, USA",
+  address: "Kaboul - 587, Karte Se Kabul, 1001, Afghanistan",
 }
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
